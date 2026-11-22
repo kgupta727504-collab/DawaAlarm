@@ -184,8 +184,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             val timesTv = TextView(this).apply {
-                text = "⏰ 15 मिनट पहले: $preStr
-💊 दवा का समय: $mainStr"
+                text = "⏰ 15 मिनट पहले: $preStr\n💊 दवा का समय: $mainStr"
                 textSize = 15f
                 setTextColor(Color.parseColor("#0F766E"))
                 setPadding(0, 10, 0, 14)
